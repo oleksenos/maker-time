@@ -30,7 +30,7 @@ nav>ul>li>a{
     
 }
 .navbutton{
-    width: 100px;
+    width: min(100px, 10vw);
     background-color: rgb(34, 87, 122);
     border: 2px solid rgb(199, 249, 204);
     text-align: left;
@@ -50,4 +50,42 @@ a{
 }
 .lasticons{
     justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 0 30px;
+}
+.headicon{
+    font-size: 35px;
+}
+
+.twocoloumn{
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 350px;
+    width: 100%;
+    background-color: lightgreen;
+    border: 2px solid yellowgreen;
+}
+.twocoloumn-text{
+    border: 2px solid green;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    margin: 0 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+.twocoloumn img{
+    height: 100%;
+    margin: 0 50px;
+}
+.header-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
