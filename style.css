@@ -58,3 +58,8 @@ a{
     font-size: 35px;
 }
 
+.onpage{
+    width:600px;
+    border: 1px solid black;
+    background-color:aquamarine;
+}

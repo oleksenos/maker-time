@@ -124,6 +124,19 @@
 .compare{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 300px;
+    grid-template-rows: auto auto 300px;
     gap: 0;
+}
+.go-to{
+    color: blue;
+}
+.nine-tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto, 1fr, 1fr, 1fr;
+}
+.separator{
+    height: 15vh;
+    width: 100vw;
+    object-fit: scale-down;
 }
