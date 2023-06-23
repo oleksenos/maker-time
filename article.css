@@ -15,7 +15,7 @@
     flex-direction: column;
     width: auto;
     height: 100%;
-    margin: 0 50px;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
     font-size: 15px;
@@ -41,14 +41,17 @@
 
 }
 .greeting-news{
-    width: 35%;
+    width: auto;
 }
 .article{
     display: flex;
     flex-direction: column;
     border: 3px green solid;
-    width: 48.5vw;
+    width: auto;
     justify-content: space-between;
+    object-fit: contain;
+    align-self: center;
+    justify-self: center;
 }
 .article-header{
     text-align: left;
@@ -91,6 +94,7 @@
 .article-content{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .greeting-image{
     display: flex;
@@ -133,7 +137,7 @@
 .nine-tiles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto, 1fr, 1fr, 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
 }
 .separator{
     height: 15vh;
