@@ -139,6 +139,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr;
 }
+.six-tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+}
 .separator{
     height: 15vh;
     width: 100%;
